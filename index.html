@@ -2,21 +2,46 @@ index.html
 <!doctype html>
 <html lang="en">
   <style>
-  body { font-family: Arial, Helvetica, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; background-color: #fafafa; }
-  nav { margin-bottom: 20px; }
-  nav a { text-decoration: none; font-weight: bold; margin-right: 10px; color: #333; }
-  h1, h2 { color: #222; }
-    <h2>About This Site</h2>
-<p>
-This website is a small personal recipe collection featuring dishes I actually cook.
-Each recipe is written in a simple, step-by-step format meant for college students or
-anyone cooking at home. This site was created as part of a project exploring how AI
-tools can assist with web development.
-</p>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #fdf6f0;
+  }
 
-  ul, ol { background: white; padding: 15px; border-radius: 8px; }
-  @media (max-width: 600px) { body { padding: 12px; } }
+  nav {
+    margin-bottom: 20px;
+    background-color: #c0392b;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 12px;
+  }
+
+  h1, h2 {
+    color: #222;
+  }
+
+  ul, ol {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 12px;
+    }
+  }
 </style>
+
 
 <head>
   <meta charset="utf-8" />
@@ -24,6 +49,7 @@ tools can assist with web development.
   <title>Juan’s Recipe Book</title>
 </head>
 <body>
+  
   <nav>
   <a href="index.html">Home</a> |
   <a href="alfredo.html">Fettuccine Alfredo</a>
@@ -31,6 +57,14 @@ tools can assist with web development.
   
   <h1>Juan’s Recipe Book</h1>
   <p>Welcome — recipes I actually make.</p>
+  <h2>About This Site</h2>
+<p>
+This website is a small personal recipe collection featuring dishes I actually cook.
+Each recipe is written in a simple, step-by-step format meant for college students or
+anyone cooking at home. This site was created as part of a project exploring how AI
+tools can assist with web development.
+</p>
+
 
   <ul>
     <li><a href="alfredo.html">Fresh Fettuccine Alfredo</a></li>
