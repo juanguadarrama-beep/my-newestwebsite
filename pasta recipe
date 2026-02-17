@@ -9,38 +9,9 @@ index.html
 <body>
   <h1>Juan’s Recipe Book</h1>
   <p>Welcome — recipes I actually make.</p>
+
   <ul>
     <li><a href="alfredo.html">Fresh Fettuccine Alfredo</a></li>
   </ul>
-</body>
-</html>
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fresh Fettuccine Alfredo</title>
-</head>
-<body>
-  <a href="index.html">← Back</a>
-  <h1>Fresh Fettuccine Alfredo</h1>
-
-  <h2>Ingredients</h2>
-  <ul>
-    <li>10–12 oz fettuccine</li>
-    <li>4 tbsp butter</li>
-    <li>1 cup heavy cream</li>
-    <li>1–1½ cups grated Parmesan</li>
-    <li>Salt + black pepper</li>
-  </ul>
-
-  <h2>Steps</h2>
-  <ol>
-    <li>Boil salted water; cook pasta. Save 1 cup pasta water and drain.</li>
-    <li>Melt butter on low; add cream and warm gently.</li>
-    <li>Stir in Parmesan until smooth.</li>
-    <li>Toss pasta in sauce; loosen with pasta water if needed.</li>
-    <li>Season and serve.</li>
-  </ol>
 </body>
 </html>
